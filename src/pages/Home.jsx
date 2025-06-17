@@ -17,7 +17,7 @@ const Home = () => {
             Connect. Solve. Think. Create.
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-           Computer Science Technology club at SAU is where tech entusiasts unite to innovate, collaborate, and create. 
+          The Computer Science Technology Club at SAU is where tech enthusiasts come together to innovate, collaborate, and create.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
