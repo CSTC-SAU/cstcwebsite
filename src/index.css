@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+    --color-federal-blue: #181161;
+    --color-alabaster: #EAEBDE;
+    --color-timberwolf: #D6D7D1;
+    --color-lavender-web: #D7D3DD;
+    --color-silver: #CACAC6;
+  }
+
+  @keyframes slow-bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+  
+  .animate-bounce-slow {
+    animation: slow-bounce 3s ease-in-out infinite;
+  }
+  
