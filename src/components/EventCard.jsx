@@ -47,17 +47,26 @@ const EventCard = ({ event, isUpcoming }) => {
           <div className="text-sm text-gray-300">
             {isUpcoming ? 'Spots available' : 'Event completed'}
           </div>
-          <button 
-            className={`flex items-center space-x-2 px-4 py-2 rounded-lg font-semibold transition-all duration-300 ${
-              isUpcoming && event.registrationOpen
-                ? 'bg-blue-900 text-white hover:bg-blue-800'
-                : 'bg-gray-300 text-white cursor-not-allowed'
-            }`}
-            disabled={!isUpcoming || !event.registrationOpen}
-          >
-            <span>{isUpcoming ? 'Register Now' : 'View Details'}</span>
-            <ArrowRight className="h-4 w-4" />
-          </button>
+          {isUpcoming && event.registrationOpen ? (
+  <a 
+    href={event.registrationLink} 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="flex items-center space-x-2 px-4 py-2 rounded-lg font-semibold transition-all duration-300 bg-blue-900 text-white hover:bg-blue-800"
+  >
+    <span>Register Now</span>
+    <ArrowRight className="h-4 w-4" />
+  </a>
+) : (
+  <button 
+    className="flex items-center space-x-2 px-4 py-2 rounded-lg font-semibold bg-gray-300 text-white cursor-not-allowed"
+    disabled
+  >
+    <span>View Details</span>
+    <ArrowRight className="h-4 w-4" />
+  </button>
+)}
+
         </div>
       </div>
     </div>
