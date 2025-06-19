@@ -1,117 +1,342 @@
 const ExecutivesData = [
   {
     id: 1001,
-    name: "Aanvi sharma",
+    name: "Aanvi Sharma",
     position: "Coordinator",
     course: "B.Tech CSE",
     batch: "2024–2028",
     email: "anujkumar@students.sau.ac.in",
     linkedin: "#",
-    github: "#", 
-    image: "em1.jpeg" 
+    github: "#",
+    image: "em1.jpeg"
   },
-   {
+  {
     id: 1002,
-    name: "Anuj Kumar", 
+    name: "Anuj Kumar",
     position: "Coordinator",
     course: "B.Tech CSE",
     batch: "2024–2029",
     email: "anujkumar@students.sau.ac.in",
-    linkedin: "https://linkedin.com/in/anujkharbash", 
+    linkedin: "https://linkedin.com/in/anujkharbash",
     github: "https://github.com/anujkharbash2",
     image: "em2.jpeg"
-   },
-   {
+  },
+  {
     id: 1003,
-    name: "Sparsh Samrat", 
+    name: "Sparsh Samrat",
     position: "Coordinator",
     course: "B.Tech CSE",
     batch: "2024–2029",
     email: "Ameetesh@gmail.com",
-    linkedin: "#", // optional
+    linkedin: "#",
     github: "#",
-    image: "em3.jpeg" // should exist in public/images/
-   },
-   {
+    image: "em3.jpeg"
+  },
+  {
     id: 1004,
-    name: "Subham Agarwal", 
+    name: "Subham Agarwal",
     position: "Coordinator",
     course: "B.Tech CSE",
     batch: "2024–2028",
     email: "Subhamagarwal@students.sau.ac.in",
-    linkedin: "#", // optional
+    linkedin: "#",
     github: "#",
-    image: "em4.jpeg" // should exist in public/images/
-   },
-
-   {
+    image: "em4.jpeg"
+  },
+  {
     id: 1005,
-    name: "Vikryansh Singh", 
+    name: "Vikryansh Singh",
     position: "Coordinator",
     course: "B.Tech CSE",
     batch: "2024–2028",
     email: "",
-    linkedin: "#", 
+    linkedin: "#",
     github: "#",
-    image: "logo.png" 
-   },
-
-   {
+    image: "logo.png"
+  },
+  {
     id: 1006,
-    name: "Aditya Kumar", 
+    name: "Aditya Kumar",
     position: "Executive and Co-lead Design",
     course: "B.Tech CSE",
     batch: "2024–2028",
     email: "",
-    linkedin: "#", 
+    linkedin: "#",
     github: "#",
-    image: "logo.png" 
-   },
-
-   {
+    image: "logo.png"
+  },
+  {
     id: 1007,
-    name: "Suyash Singh", 
+    name: "Suyash Singh",
     position: "Executive and Co-lead Finance",
     course: "B.Tech CSE",
     batch: "2024–2029",
     email: "",
-    linkedin: "#", 
+    linkedin: "#",
     github: "#",
-    image: "logo.png" 
-   },
-   {
+    image: "logo.png"
+  },
+  {
     id: 1008,
-    name: "Vaibhav Tripathi", 
-    position: "Executive and  Co-lead Events",
+    name: "Vaibhav Tripathi",
+    position: "Executive and Co-lead Events",
     course: "B.Tech CSE",
     batch: "2024–2028",
     email: "vikryanshsingh@students.sau.ac.in",
-    linkedin: "#", // optional
+    linkedin: "#",
     github: "#",
-    image: "logo.png" // should exist in public/images/
-   },
-   {
+    image: "logo.png"
+  },
+  {
     id: 1009,
-    name: "Anshika Gupta", 
+    name: "Anshika Gupta",
     position: "Executive and Co-lead PR",
     course: "B.Tech CSE",
     batch: "2024–2028",
     email: "vikryanshsingh@students.sau.ac.in",
-    linkedin: "#", 
+    linkedin: "#",
     github: "#",
-    image: "logo.png" 
-   },
-   {
+    image: "logo.png"
+  },
+  {
     id: 1010,
-    name: "Divyendu ", 
+    name: "Divyendu ",
     position: "Executive and Co-lead Tech",
     course: "B.Tech CSE",
     batch: "2024–2028",
     email: "vikryanshsingh@students.sau.ac.in",
-    linkedin: "#", 
+    linkedin: "#",
     github: "#",
-    image: "logo.png" 
-   },
+    image: "logo.png"
+  },
+
+  {
+    id: 1011,
+    name: "Ameetesh Awadh",
+    position: "Executive",
+    course: "B.Tech CSE",
+    batch: "2024–2028",
+    email: "ameetesh@students.sau.ac.in",
+    linkedin: "https://www.linkedin.com/in/ameetesh/",
+    github: "https://github.com/AmeeteSh-A/",
+    image: "logo.png",
+  },
+  {
+    id: 1012,
+    name: "Harkeerat Singh",
+    position: "Executive",
+    course: "B.Tech CSE",
+    batch: "2024–2028",
+    email: "harkeeratsingh2903@gmail.com",
+    linkedin: "#",
+    github: "#",
+    image: "logo.png",
+  },
+  {
+    id: 1013,
+    name: "Prakhar Parashar",
+    position: "Executive",
+    course: "B.Tech CSE",
+    batch: "2024–2028",
+    email: "tech3@students.sau.ac.in",
+    linkedin: "#",
+    github: "#",
+    image: "logo.png",
+  },
+  {
+    id: 1014,
+    name: "Nikhil Rai",
+    position: "Executive",
+    course: "B.Tech CSE",
+    batch: "2024–2028",
+    email: "tech4@students.sau.ac.in",
+    linkedin: "#",
+    github: "#",
+    image: "logo.png",
+  },
+
+  
+  {
+    id: 1015,
+    name: "Ipshita Bajpai",
+    position: "Executive",
+    course: "B.Tech CSE",
+    batch: "2024–2028",
+    email: "pr1@students.sau.ac.in",
+    linkedin: "#",
+    github: "#",
+    image: "logo.png",
+  },
+  {
+    id: 1016,
+    name: "Atul Kashyap",
+    position: "Executive",
+    course: "B.Tech CSE",
+    batch: "2024–2028",
+    email: "pr2@students.sau.ac.in",
+    linkedin: "#",
+    github: "#",
+    image: "logo.png",
+  },
+  {
+    id: 1017,
+    name: "Shri Mahaveer",
+    position: "Executive",
+    course: "B.Tech CSE",
+    batch: "2024–2028",
+    email: "pr3@students.sau.ac.in",
+    linkedin: "#",
+    github: "#",
+    image: "logo.png",
+  },
+  {
+    id: 1018,
+    name: "Aditya Adhikari",
+    position: "Executive",
+    course: "B.Tech CSE",
+    batch: "2024–2028",
+    email: "pr4@students.sau.ac.in",
+    linkedin: "#",
+    github: "#",
+    image: "logo.png",
+  },
+
+  {
+    id: 1019,
+    name: "Anushy",
+    position: "Executive",
+    course: "B.Tech CSE",
+    batch: "2024–2028",
+    email: "fin1@students.sau.ac.in",
+    linkedin: "#",
+    github: "#",
+    image: "logo.png",
+  },
+  {
+    id: 1020,
+    name: "Nishant Sharma",
+    position: "Executive",
+    course: "B.Tech CSE",
+    batch: "2024–2028",
+    email: "fin2@students.sau.ac.in",
+    linkedin: "#",
+    github: "#",
+    image: "logo.png",
+  },
+  // {
+  //   id: 1021,
+  //   name: "Atirek Sharma",
+  //   position: "Executive",
+  //   course: "B.Tech CSE",
+  //   batch: "2024–2028",
+  //   email: "fin3@students.sau.ac.in",
+  //   linkedin: "#",
+  //   github: "#",
+  //   image: "logo.png",
+  // },
+  {
+    id: 1022,
+    name: "Madhav Kathuria",
+    position: "Executive",
+    course: "B.Tech CSE",
+    batch: "2024–2028",
+    email: "fin4@students.sau.ac.in",
+    linkedin: "#",
+    github: "#",
+    image: "logo.png",
+  },
+
+
+  {
+    id: 1023,
+    name: "Misbah Ul Islam",
+    position: "Executive",
+    course: "B.Tech CSE",
+    batch: "2024–2028",
+    email: "crea1@students.sau.ac.in",
+    linkedin: "#",
+    github: "#",
+    image: "logo.png",
+  },
+  {
+    id: 1024,
+    name: "Tarini Parashar",
+    position: "Executive",
+    course: "B.Tech CSE",
+    batch: "2024–2028",
+    email: "crea2@students.sau.ac.in",
+    linkedin: "#",
+    github: "#",
+    image: "logo.png",
+  },
+  {
+    id: 1025,
+    name: "Saumya Parashar",
+    position: "Executive",
+    course: "B.Tech CSE",
+    batch: "2024–2028",
+    email: "crea3@students.sau.ac.in",
+    linkedin: "#",
+    github: "#",
+    image: "logo.png",
+  },
+  {
+    id: 1026,
+    name: "Prateek Reddy",
+    position: "Executive",
+    course: "B.Tech CSE",
+    batch: "2024–2028",
+    email: "crea4@students.sau.ac.in",
+    linkedin: "#",
+    github: "#",
+    image: "logo.png",
+  },
+
+ 
+  {
+    id: 1027,
+    name: "Kishlay",
+    position: "Executive",
+    course: "B.Tech CSE",
+    batch: "2024–2028",
+    email: "evt1@students.sau.ac.in",
+    linkedin: "#",
+    github: "#",
+    image: "logo.png",
+  },
+  {
+    id: 1028,
+    name: "Saara Ahmed",
+    position: "Executive",
+    course: "B.Tech CSE",
+    batch: "2024–2028",
+    email: "evt2@students.sau.ac.in",
+    linkedin: "#",
+    github: "#",
+    image: "logo.png",
+  },
+  {
+    id: 1029,
+    name: "Shubham Kumar Yadav",
+    position: "Executive",
+    course: "B.Tech CSE",
+    batch: "2024–2028",
+    email: "evt3@students.sau.ac.in",
+    linkedin: "#",
+    github: "#",
+    image: "logo.png",
+  },
+  {
+    id: 1030,
+    name: "Lavanya Sharma",
+    position: "Executive",
+    course: "B.Tech CSE",
+    batch: "2024–2028",
+    email: "evt4@students.sau.ac.in",
+    linkedin: "#",
+    github: "#",
+    image: "logo.png",
+  }
 ];
 
 export default ExecutivesData;
