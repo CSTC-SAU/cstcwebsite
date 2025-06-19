@@ -1,6 +1,6 @@
 const ExecutivesData = [
   {
-    id: 1,
+    id: 1001,
     name: "Aanvi sharma",
     position: "Coordinator",
     course: "B.Tech CSE",
@@ -11,8 +11,8 @@ const ExecutivesData = [
     image: "em1.jpeg" 
   },
    {
-    id: 2,
-    name: "Ameetesh Kumar", 
+    id: 1002,
+    name: "Anuj Kumar", 
     position: "Coordinator",
     course: "B.Tech CSE",
     batch: "2024–2029",
@@ -22,7 +22,7 @@ const ExecutivesData = [
     image: "em2.jpeg"
    },
    {
-    id: 3,
+    id: 1003,
     name: "Sparsh Samrat", 
     position: "Coordinator",
     course: "B.Tech CSE",
@@ -33,7 +33,7 @@ const ExecutivesData = [
     image: "em3.jpeg" // should exist in public/images/
    },
    {
-    id: 4,
+    id: 1004,
     name: "Subham Agarwal", 
     position: "Coordinator",
     course: "B.Tech CSE",
@@ -43,8 +43,21 @@ const ExecutivesData = [
     github: "#",
     image: "em4.jpeg" // should exist in public/images/
    },
+
    {
-    id: 6,
+    id: 1005,
+    name: "Vikryansh Singh", 
+    position: "Coordinator",
+    course: "B.Tech CSE",
+    batch: "2024–2028",
+    email: "",
+    linkedin: "#", 
+    github: "#",
+    image: "logo.png" 
+   },
+
+   {
+    id: 1006,
     name: "Aditya Kumar", 
     position: "Executive and Co-lead Design",
     course: "B.Tech CSE",
@@ -56,7 +69,7 @@ const ExecutivesData = [
    },
 
    {
-    id: 7,
+    id: 1007,
     name: "Suyash Singh", 
     position: "Executive and Co-lead Finance",
     course: "B.Tech CSE",
@@ -67,7 +80,7 @@ const ExecutivesData = [
     image: "logo.png" 
    },
    {
-    id: 8,
+    id: 1008,
     name: "Vaibhav Tripathi", 
     position: "Executive and  Co-lead Events",
     course: "B.Tech CSE",
@@ -78,7 +91,7 @@ const ExecutivesData = [
     image: "logo.png" // should exist in public/images/
    },
    {
-    id: 9,
+    id: 1009,
     name: "Anshika Gupta", 
     position: "Executive and Co-lead PR",
     course: "B.Tech CSE",
@@ -89,7 +102,7 @@ const ExecutivesData = [
     image: "logo.png" 
    },
    {
-    id: 10,
+    id: 1010,
     name: "Divyendu ", 
     position: "Executive and Co-lead Tech",
     course: "B.Tech CSE",

@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Code, Users, Lightbulb, Trophy, Calendar, Github, FolderHeart } from 'lucide-react';
+import HomeFeaturedProjects from '../components/HomeFeaturedProjects';
+import HomeUpcomingEvents from '../components/HomeUpcomingEvents';
 
 const Home = () => {
   return (
@@ -35,9 +37,13 @@ const Home = () => {
               View Projects
               <FolderHeart className="ml-2 h-5 w-5" />
             </Link>
+
           </div>
         </div>
       </section>
+
+      {/* < HomeFeaturedProjects/> */}
+      < HomeUpcomingEvents/>
 
       
 
