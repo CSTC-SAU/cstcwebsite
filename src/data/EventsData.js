@@ -1,5 +1,3 @@
-// src/data/projectsData.js
-
 const projects = [
     {
       id: 1,
@@ -9,12 +7,13 @@ const projects = [
       tech: ["React", "TailwindCss", "Vite", "JavaScript"],
       github: "https://github.com/CSTC-SAU/cstcwebsite",
       demo: "https://cstc.sauprep.site/",
-      team: ["CSTC Team"],
+      team: ["Ameetesh", "Anuj", "Prakhar", "Sparsh"],
     
     },
+    
+    
    
     // Add more projects here
   ];
   
   export default projects;
-  
