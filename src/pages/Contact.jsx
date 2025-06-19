@@ -179,7 +179,7 @@ const Contact = () => {
                 <Calendar size={24} className="text-white mr-3" /> Connect With Us
               </h2>
 
-              <div className="mb-8">
+{/*               <div className="mb-8">
                 <p className="text-gray-400 mb-4">Follow us on social media for updates:</p>
                 <div className="flex gap-5">
                   <a href="https://instagram.com/cstc_sau" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-br from-fuchsia-600 to-pink-700 p-3 rounded-full text-white hover:shadow-xl transition-all duration-300 hover:scale-110" aria-label="Instagram">
@@ -192,7 +192,7 @@ const Contact = () => {
                     <Linkedin size={24} />
                   </a>
                 </div>
-              </div>
+              </div> */}
 
               <div className="mt-8">
                 <p className="text-gray-400 mb-3">Find us on campus:</p>
